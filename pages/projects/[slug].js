@@ -29,7 +29,7 @@ function Project({ project, slug }) {
 
 				<div className="title">{project.title}</div>
 				{project.screenshots.slice(1).map(img => (
-					<div className="relative section-lg h-96">
+					<div className="relative section-lg h-96" key={img._id}>
 						<Image
 							src={urlFor(img).url()}
 							layout="fill"
