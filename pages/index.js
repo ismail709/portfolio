@@ -1,13 +1,9 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
-import { useEffect } from 'react';
 import { sanityClient, urlFor } from '../lib/sanity';
 
 export default function Home({ articles, labs, projects }) {
-	useEffect(() => {
-		console.log(labs);
-	});
 	return (
 		<>
 			<Head>

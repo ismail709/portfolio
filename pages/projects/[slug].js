@@ -4,10 +4,7 @@ import Link from 'next/link';
 import { useEffect } from 'react';
 import { sanityClient, urlFor } from '../../lib/sanity';
 
-function Project({ project, slug }) {
-	useEffect(() => {
-		console.log('tes');
-	});
+function Project({ project }) {
 	return (
 		<>
 			<Head>
@@ -63,7 +60,6 @@ export async function getStaticPaths() {
             'slug':slug.current
         }
     }`);
-	console.log(paths);
 
 	return {
 		paths,
