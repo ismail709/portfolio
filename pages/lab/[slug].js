@@ -33,7 +33,7 @@ function Lab({ lab }) {
 			</Head>
 			<div className="flex flex-col items-center flex-grow relative">
 				<Link href="/lab">
-					<div className="flex flex-row gap-2 items-center absolute top-4 left-4 p-2 border-2 fill-white cursor-pointer text-base">
+					<div className="flex flex-row gap-2 items-center lg:absolute lg:top-4 lg:left-4 order-last mb-4 p-2 border-2 fill-white cursor-pointer text-base">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 448 512"
