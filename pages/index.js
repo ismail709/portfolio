@@ -35,6 +35,7 @@ export default function Home({ articles, labs, projects }) {
 											src={urlFor(project.image).url()}
 											layout="fill"
 											className="object-cover object-top"
+											alt={project.title}
 										/>
 									</div>
 									<div className="project-card-title">
@@ -83,6 +84,7 @@ export default function Home({ articles, labs, projects }) {
 										src={urlFor(lab.icon.icon).url()}
 										width="40"
 										height="40"
+										alt="lab icon"
 									/>
 								</div>
 								<div className="lab-text">

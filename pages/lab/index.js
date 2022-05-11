@@ -20,6 +20,7 @@ function Labs({ labs }) {
 										src={urlFor(lab.icon.icon).url()}
 										width="40"
 										height="40"
+										alt="lab icon"
 									/>
 								</div>
 								<div className="lab-text">

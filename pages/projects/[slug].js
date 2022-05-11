@@ -30,7 +30,11 @@ function Project({ project, slug }) {
 				<div className="title">{project.title}</div>
 				{project.screenshots.slice(1).map(img => (
 					<div className="relative section-lg h-96">
-						<Image src={urlFor(img).url()} layout="fill" />
+						<Image
+							src={urlFor(img).url()}
+							layout="fill"
+							alt="project screenshot"
+						/>
 					</div>
 				))}
 				<Link href={project.demo} passHref>

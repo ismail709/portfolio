@@ -25,6 +25,7 @@ function Projects({ projects }) {
 											src={urlFor(project.image).url()}
 											layout="fill"
 											className="object-cover object-top"
+											alt="project screenshot"
 										/>
 									</div>
 									<div className="project-card-title">

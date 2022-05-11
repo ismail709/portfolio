@@ -16,7 +16,11 @@ function Lab({ article }) {
 						className="relative max-w-full mx-auto"
 						style={{ width: width, height: height }}
 					>
-						<Image src={urlFor(value).url()} layout="fill" />
+						<Image
+							src={urlFor(value).url()}
+							layout="fill"
+							alt={article.title}
+						/>
 					</div>
 				);
 			},
