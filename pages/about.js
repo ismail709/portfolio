@@ -7,7 +7,7 @@ function About() {
 				<title>About</title>
 			</Head>
 			<div className="flex flex-col items-center flex-grow">
-				<div className="title">Who am I?</div>
+				<div className="title">Who am I ?</div>
 				<div className="section-sm text-base text-justify font-body">
 					Qui non in fugiat labore nulla ullamco commodo mollit irure
 					velit enim. Tempor labore enim ad aute laboris aliqua qui
