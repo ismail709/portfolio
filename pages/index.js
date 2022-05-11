@@ -12,10 +12,12 @@ export default function Home({ articles, labs, projects }) {
 			<div className="flex flex-col items-center justify-center">
 				<div className="title text-2xl">RHILAL ISMAIL</div>
 				<div className="section-sm text-base text-justify font-body sm:text-xl">
-					Ismail is a back end developer who loves anything related to
-					coding. His research skills helped him navigate many
-					problems he faced on his journey to become the person he is
-					now.
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Morbi vel tempus velit, a bibendum purus. Sed semper tortor
+					ipsum, eget auctor arcu maximus eu. Morbi rhoncus commodo
+					eros vitae ultricies. Etiam in gravida turpis, a facilisis
+					dolor. Donec malesuada vitae dui eu fringilla. Nunc vitae
+					diam sit amet leo tincidunt commodo.
 				</div>
 				<div className="title">Projects</div>
 				<div className="section-lg">
