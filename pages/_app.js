@@ -1,7 +1,18 @@
-import '../styles/globals.css'
+import Head from 'next/head';
+import Footer from '../components/Footer';
+import Navbar from '../components/navbar';
+import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+	return (
+		<>
+			<div className="flex flex-col min-h-screen">
+				<Navbar />
+				<Component {...pageProps} />
+				<Footer />
+			</div>
+		</>
+	);
 }
 
-export default MyApp
+export default MyApp;
