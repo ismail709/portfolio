@@ -21,7 +21,7 @@ export default function Home({ articles, labs, projects }) {
 				</div>
 				<div className="title">Projects</div>
 				<div className="section-lg">
-					<div className="flex flex-col sm:flex-row gap-4 justify-center items-center w-full">
+					<div className="flex flex-col sm:flex-row gap-4 justify-center items-center w-full flex-wrap">
 						{projects?.map(project => (
 							<Link
 								key={project._id}
