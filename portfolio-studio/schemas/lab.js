@@ -1,4 +1,4 @@
-import { JustifyIcon, JustifyRender } from './justify-text';
+import { JustifyRender } from './justify-text';
 
 export default {
 	title: 'Lab',

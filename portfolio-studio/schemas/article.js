@@ -1,3 +1,5 @@
+import { JustifyRender } from './justify-text';
+
 export default {
 	title: 'Article',
 	name: 'article',
