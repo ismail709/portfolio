@@ -2,8 +2,8 @@ import Link from 'next/link';
 
 function Navbar() {
 	return (
-		<nav className="flex justify-center w-full text-white font-display bg-[#D62828]">
-			<ul className="flex flex-row gap-4 p-4 text-[14px]">
+		<nav className="navbar-container">
+			<ul className="navbar">
 				<li>
 					<Link href="/" passHref>
 						<a>Home</a>
