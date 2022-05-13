@@ -12,13 +12,13 @@ html,body{
 
 @layer components {
   .navbar-container {
-    @apply flex justify-center w-full text-white font-display bg-primary-1
+    @apply flex justify-center w-full text-primary-2 font-display bg-primary-1
   }
   .navbar{
     @apply flex flex-row gap-4 p-4 text-base
   }
   .footer{
-    @apply flex justify-center w-full text-white font-display bg-primary-1 text-xs p-2
+    @apply flex justify-center w-full text-primary-2 font-display bg-primary-1 text-xs p-2
   }
   .show-more {
     @apply font-body font-bold text-base text-center bg-transparent text-secondary-1 border-secondary-1 border-2 px-4 py-2 inline-block w-44 hover:text-primary-2 hover:bg-secondary-1
@@ -39,7 +39,7 @@ html,body{
     @apply flex-grow relative
   }
   .project-card-title {
-    @apply h-10 bg-secondary-1 flex justify-center items-center font-body font-bold text-base text-black
+    @apply h-10 bg-secondary-1 flex justify-center items-center font-body font-bold text-base text-primary-1
   }
   .article-card {
     @apply flex flex-col p-4 border-[1px] border-white w-full cursor-pointer  hover-animation
@@ -63,6 +63,6 @@ html,body{
     @apply flex flex-col flex-grow
   }
   .hover-animation {
-    @apply hover:bg-secondary-1 hover:translate-x-3 transition-all duration-100 hover:text-primary-2
+    @apply hover:bg-secondary-1 hover:translate-x-3 transition-all duration-100 hover:text-primary-1
   }
 }
