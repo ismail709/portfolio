@@ -25,6 +25,11 @@ function Lab({ article }) {
 				);
 			},
 		},
+		block: {
+			justified: ({ children }) => {
+				return <div className="text-justify">{children}</div>;
+			},
+		},
 	};
 	return (
 		<>
