@@ -1,7 +1,7 @@
+import { getImageDimensions } from '@sanity/asset-utils';
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
-import { useEffect } from 'react';
 import { sanityClient, urlFor } from '../../lib/sanity';
 
 function Project({ project }) {
@@ -25,15 +25,20 @@ function Project({ project }) {
 				</Link>
 
 				<div className="title">{project.title}</div>
-				{project.screenshots.slice(1).map(img => (
-					<div className="relative section-lg h-96" key={img._key}>
-						<Image
-							src={urlFor(img).url()}
-							layout="fill"
-							alt="project screenshot"
-						/>
-					</div>
-				))}
+				<div className="relative section-lg p-0 gap-0">
+					{project.screenshots.slice(1).map(img => {
+						const { width, height } = getImageDimensions(img);
+						return (
+							<Image
+								key={img._key}
+								src={urlFor(img).url()}
+								width={width}
+								height={height}
+								alt="project screenshot"
+							/>
+						);
+					})}
+				</div>
 				<Link href={project.demo} passHref>
 					<a
 						target="_blank"

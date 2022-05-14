@@ -18,7 +18,7 @@ html,body{
     @apply flex flex-row gap-4 p-4 text-base
   }
   .footer{
-    @apply flex justify-center w-full text-primary-2 font-display bg-primary-1 text-xs p-2
+    @apply flex justify-center w-full text-primary-2 font-display bg-primary-1 sm:text-xs p-2 text-[10px]
   }
   .show-more {
     @apply font-body font-bold text-base text-center bg-transparent text-secondary-1 border-secondary-1 border-2 px-4 py-2 inline-block w-44 hover:text-primary-2 hover:bg-secondary-1
