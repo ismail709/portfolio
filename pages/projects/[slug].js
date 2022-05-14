@@ -34,8 +34,9 @@ function Project({ project }) {
 						/>
 					</div>
 				))}
-				<Link passHref>
+				<Link>
 					<a
+						href={project.demo}
 						target="_blank"
 						className="bg-white text-primary-2 text-base m-4 px-4 py-2 border-2 border-white hover:bg-transparent hover:text-white  hover:fill-white fill-primary-2"
 					>
